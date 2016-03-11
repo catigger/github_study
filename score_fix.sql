@@ -114,3 +114,7 @@ INNER JOIN core.t_vehicle_device_map vdm on vdm.vehicle_id = v.vehicle_id and	vd
 INNER JOIN iov.device_static_summary dss on dss.obj_id = v.vehicle_id
 SET d.integral_value=0 
 where dss.summary_date = '2016-03-10' and dss.brake_num+dss.turn_num+dss.rapid_acc_num+dss.rapid_dec_num > 6 and d.integral_type = 4; 
+
+---------------------------------------------
+---------------------------------------------
+=============================================
