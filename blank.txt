@@ -1,3 +1,0 @@
-this is not blank
-this is master branch
-this is dev branch
